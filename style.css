@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d3d8de;
+}
+
+.content {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    padding: 5px 60px 300px;
+    width: 900px;
+    flex-direction: column;
+    margin-top: 0;
+}
+
+.heading h1 {
+    text-align: center;
+    line-height: 60px;
+    font-size: 3.75em;
+    padding: 0 .5em;
+}
+
+.heading h1 span {
+    text-decoration: none;
+    color: #f50000;
+}
+
+.div-img {
+    padding: 10px 0;
+}
+
+.div-heading {
+    border: 1px dotted #000;
+    margin-bottom: 10px
+}
+
+.div-heading img {
+    width: 65%;
+}
+
+.div-img img {
+    width: 100%;
+}
+
+.div-img p {
+    text-align: center;
+}
+
+.para P {
+    font-size: x-large;
+    line-height: 30px;
+}
+
+.btn {
+    transition: all 0.3s ease-in-out;
+    font-family: "Dosis", sans-serif;
+}
+
+.btns {
+    text-align: center;
+}
+
+.btn {
+    padding: 15px 75px;
+    border-radius: 15px;
+    background-color: #0a5ed4;
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.12);
+    outline: none;
+    cursor: pointer;
+    border: 3px solid #0a5ed4;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.btn:hover {
+    transform: translateY(3px);
+    box-shadow: none;
+}
+
+.btn:active {
+    opacity: 0.5;
+}
+
+footer {
+    background-color: #f0f2f4;
+    padding-bottom: 20px;
+    color: rgb(112, 112, 112);
+    padding: 100px 300px;
+}
+
+footer a {
+    color: rgb(112, 112, 112);
+}
+
+.FOOT-MENU {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .content {
+        padding: 10px;
+        margin-top: 0px;
+    }
+    .heading h1 {
+        line-height: 25px;
+        font-size: 1.65em;
+    }
+    .div-heading img {
+        width: 95%;
+    }
+    .btn {
+        padding: 15px 35px;
+    }
+    footer {
+        padding: 10px;
+    }
+}
